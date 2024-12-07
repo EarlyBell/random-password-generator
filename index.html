@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random Password Generator</h1>
+      <p class="para"></p>
+      <button>Generate Password</button>
+    </div>
+    <div>
+      <h3>Customize your password:</h3>
+      <select name="" id="">
+        <option value="">Type of password</option>
+        <option value="alphaNum">
+          AlphaNumeric
+        </option>
+        <option value="sym">
+          AlphaNumeric with symbols
+        </option>
+        <option value="alpha">
+          Alphabetical
+        </option>
+        <option value="num">Numerical</option>
+      </select>
+
+      <span class="span"
+        ><p>length of password: <span id="span" >8</span></p>
+        <input type="range" min="8" max="64" value="8" />
+      </span>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
